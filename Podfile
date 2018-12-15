@@ -6,6 +6,8 @@ target 'Hackday2018-ios' do
   use_frameworks!
 
   # Pods for Hackday2018-ios
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
   target 'Hackday2018-iosTests' do
     inherit! :search_paths
